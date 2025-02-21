@@ -1,10 +1,14 @@
 # pizzaria
+Projeto
+=======
 
-![pizza](README.assets/pizza.jpg)
+![pizza](./assets/pizza.jpg)
 
 ## Barbas Pizzas.
 
 Projeto voltad para o seguimento  gastronômico focado em pizzarias.
+
+
 
 ## Layout
 
