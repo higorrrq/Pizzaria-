@@ -1,6 +1,6 @@
 # pizzaria
 
-![pizza](./assets/pizza.jpg)
+![pizza](assets/pizza.jpg)
 
 ## Barbas Pizzas.
 
