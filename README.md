@@ -1,2 +1,2 @@
-# Pizzaria-
+# pizzaria
 Projeto Pizzaria
