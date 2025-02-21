@@ -1,2 +1,3 @@
 # pizzaria
-Projeto
+
+Projeto Barbas Pizzas
