@@ -1,2 +1,2 @@
 # pizzaria
-Projeto Pizzaria
+Projeto
