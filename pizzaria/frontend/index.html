@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria - Pedidos do Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedidos do Cliente</h1>
+        <form id="clienteForm">
+            <label form="clienteId">ID do Cliente:</label>
+            <input type="number" id="clienteId" name="clienteId" required>
+            <button type="submit">Buscar Pedidos</button>
+        </form>
+
+        <div id="resultado">
+            <!-- Os pedidos serão exibidos aqui -->
+        </div>
+    </div>
+
+    <script src="pedidos.js"></script>
+</body>
+</html>

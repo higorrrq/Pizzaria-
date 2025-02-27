@@ -1,0 +1,26 @@
+#bversion: '3.9' # Esta opção está obsoleta
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_server
+    #restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: my5ql  # Defina uma senha forte para o usuário root
+      MYSQL_DATABASE: admin  # Nome do banco de dados padrão
+      MYSQL_USER: admin  # Nome do usuário padrão
+      MYSQL_PASSWORD: 4dm1n  # Senha do usuário padrão
+    ports:
+      - "3306:3306"
+    volumes:
+      - storage:/var/lib/mysql
+    networks:
+      - mysql_network
+
+volumes:
+  storage:
+    driver: local
+
+networks:
+  mysql_network:
+    driver: bridge

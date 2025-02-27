@@ -1,0 +1,13 @@
+# Libs para caso de usar o microframework Flask
+# https://flask.palletsprojects.com/en/stable/
+flask
+flask-cors
+
+# Framewor FastAPI
+# https://fastapi.tiangolo.com/tutorial/#run-the-code
+fastapi
+pydantic
+
+# Lib de conexão com MySQL
+# https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-execute.html
+mysql-connector-python
