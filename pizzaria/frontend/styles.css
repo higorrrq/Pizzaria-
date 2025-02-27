@@ -10,8 +10,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #2d2929;
+    color: #fff;
     line-height: 1.6;
     padding: 20px;
 }
@@ -67,6 +67,7 @@ button:hover {
 
 #resultado {
     margin-top: 20px;
+    color: #2d2929;
 }
 
 .pedido {
