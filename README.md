@@ -1,6 +1,5 @@
 # pizzaria
-Projeto
-=======
+
 
 ![pizza](./assets/pizza.jpg)
 
@@ -13,14 +12,6 @@ Projeto voltad para o seguimento  gastronômico focado em pizzarias.
 ## Arquitetura
 
 ![layout](./assets/barbas_pizzas.png)
-
-## Modelagem
-
-Modelagem das tabelas
-
-
-
-![](assets/modelagem.png)
 
 
 
@@ -171,6 +162,12 @@ CREATE TABLE Entregas (
 - **Pizzas** e **PizzaIngredientes**: Uma pizza pode ter vários ingredientes, e cada ingrediente pode ser usado em várias pizzas (`Pizzas.PizzaID` -> `PizzaIngredientes.PizzaID` e `Ingredientes.IngredienteID` -> `PizzaIngredientes.IngredienteID`).
 - **Pedidos** e **Entregas**: Cada pedido pode ter uma entrega associada, e cada entrega refere-se a um único pedido (`Pedidos.PedidoID` -> `Entregas.PedidoID`).
 - **Funcionarios** e **Entregas**: Um funcionário pode realizar várias entregas, mas cada entrega é feita por um único funcionário (`Funcionarios.FuncionarioID` -> `Entregas.FuncionarioID`).
+
+### Modelagem das Tabelas
+
+
+
+![](assets/modelagem.png)
 
 
 
